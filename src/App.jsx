@@ -10,11 +10,11 @@ class App extends Component {
     super(props);
 
     this.state = {
-      input: ""
+      input: "",
     };
   }
 
-  addToInput = val => {
+  addToInput = (val) => {
     this.setState({ input: this.state.input + val });
   };
 

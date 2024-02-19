@@ -1,6 +1,6 @@
 {
   "homepage": "https://SaurabhPatel1997.github.io/Calculator-app-react",
-  "name": "react-calculator",
+  "name": "calculator-app-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,5 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
